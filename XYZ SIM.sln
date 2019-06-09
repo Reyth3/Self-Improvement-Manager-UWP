@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYZ SIM", "XYZ SIM\XYZ SIM.csproj", "{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|ARM.Build.0 = Debug|ARM
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|ARM.Deploy.0 = Debug|ARM
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|ARM64.Build.0 = Debug|ARM64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|x64.ActiveCfg = Debug|x64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|x64.Build.0 = Debug|x64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|x64.Deploy.0 = Debug|x64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|x86.ActiveCfg = Debug|x86
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|x86.Build.0 = Debug|x86
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Debug|x86.Deploy.0 = Debug|x86
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|ARM.ActiveCfg = Release|ARM
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|ARM.Build.0 = Release|ARM
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|ARM.Deploy.0 = Release|ARM
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|ARM64.ActiveCfg = Release|ARM64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|ARM64.Build.0 = Release|ARM64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|ARM64.Deploy.0 = Release|ARM64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|x64.ActiveCfg = Release|x64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|x64.Build.0 = Release|x64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|x64.Deploy.0 = Release|x64
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|x86.ActiveCfg = Release|x86
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|x86.Build.0 = Release|x86
+		{FEDB92DF-5FD4-4609-918A-E0FD1DA13BDC}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9528CBF8-07A6-4226-AD4A-88BB49C536C9}
+	EndGlobalSection
+EndGlobal
