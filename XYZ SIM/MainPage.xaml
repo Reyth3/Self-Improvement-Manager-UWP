@@ -5,10 +5,24 @@
     xmlns:local="using:XYZ_SIM"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:uwp="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:winui="using:Microsoft.UI.Xaml.Controls"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
 
     <Grid>
-
+        <winui:NavigationView Name="navigation" PaneDisplayMode="LeftCompact" SelectionChanged="NavigationViewItemSelectionChanged" MenuItemsSource="{Binding Path=NavigationItems}">
+            <winui:NavigationView.MenuItemTemplate>
+                <DataTemplate>
+                    <winui:NavigationViewItem Content="{Binding Path=Text}">
+                        <winui:NavigationViewItem.Icon>
+                            <FontIcon Glyph="{Binding Path=Icon}" />
+                        </winui:NavigationViewItem.Icon>
+                    </winui:NavigationViewItem>
+                    
+                </DataTemplate>
+            </winui:NavigationView.MenuItemTemplate>
+            <Frame Name="frameView" />
+        </winui:NavigationView>
     </Grid>
 </Page>
