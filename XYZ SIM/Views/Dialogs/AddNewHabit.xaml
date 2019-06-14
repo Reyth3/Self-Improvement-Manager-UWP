@@ -1,0 +1,28 @@
+﻿<ContentDialog
+    x:Class="XYZ_SIM.Views.Dialogs.AddNewHabit"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XYZ_SIM.Views.Dialogs"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:winui="using:Microsoft.UI.Xaml.Controls"
+    xmlns:toolkit="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    mc:Ignorable="d"
+    Title="ADD NEW HABIT"
+    PrimaryButtonText="Save"
+    SecondaryButtonText="Cancel"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    SecondaryButtonClick="ContentDialog_SecondaryButtonClick">
+
+    <Grid>
+        <ScrollViewer>
+            <StackPanel>
+                <TextBlock Style="{StaticResource HeaderTextBlockStyle}" Text="Information" />
+                <TextBox Header="Name" Text="{Binding Path=Name, Mode=TwoWay}" />
+                <TextBox Header="Description" Height="64" Text="{Binding Path=Description, Mode=TwoWay}" />
+                <TextBlock Style="{StaticResource HeaderTextBlockStyle}" Text="Duration in days" />
+                <Slider Name="daysSlider" Minimum="7" Value="14" Maximum="90" StepFrequency="1" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</ContentDialog>

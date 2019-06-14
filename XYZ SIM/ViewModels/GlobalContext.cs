@@ -11,6 +11,7 @@ namespace XYZ_SIM.ViewModels
         public static GlobalContext Current { get; set; }
         public GlobalContext()
         {
+            UserData = new UserDataVM();
             if (Current == null)
                 Current = this;
             else if (Current != this)
@@ -27,11 +28,12 @@ namespace XYZ_SIM.ViewModels
         public HamburgerMenuItem[] NavigationItems { get; set; } = new HamburgerMenuItem[]
         {
             new HamburgerMenuItem("Overview", '\uE10F', typeof(Views.Overview)),
-            new HamburgerMenuItem("Habit Builder", '\uE149', typeof(MainPage)),
+            new HamburgerMenuItem("Habit Builder", '\uE149', typeof(Views.HabitPlanner)),
             new HamburgerMenuItem("Inspiration", '\uE706', typeof(MainPage)),
             new HamburgerMenuItem("Try Something New", '\uE2B1', typeof(MainPage)),
             new HamburgerMenuItem("Day Planner", '\uE10F', typeof(MainPage)),
             new HamburgerMenuItem("Mood Diary", '\uE170', typeof(MainPage)),
         };
+        public UserDataVM UserData { get; set; }
     }
 }
